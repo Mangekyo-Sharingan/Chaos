@@ -655,7 +655,7 @@ class Widget(QWidget):
             self.animspeed = 1000/self.animspeed # sec/frame -> frames/msec
 
             self.f = 0
-            self.fmax = 100
+            self.fmax = 10000
             self.timer.start(int(self.animspeed))
 
             self.redraw_plots()
